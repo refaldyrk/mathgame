@@ -1,0 +1,28 @@
+body { font-family: sans-serif }
+h1 { margin-bottom: 50px; color: #777777 }
+.no-border { border: none }
+.mr-1 { margin-right: 0.7rem }
+.row { margin-bottom: 1rem }
+.align-center { text-align: center; margin-top: 100px }
+
+.input-disabled {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    width: 50px;
+    color: #545454;
+}
+
+#submit {
+    background: #58b9ac;
+    color: white;
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    opacity: 0.8;
+}
